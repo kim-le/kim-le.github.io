@@ -7266,10 +7266,10 @@ h3 {
     background: transparent;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    -webkit-transition: background-color 300ms ease-out 1s;
-      -moz-transition: background-color 300ms ease-out 1s;
-      -o-transition: background-color 300ms ease-out 1s;
-      transition: background-color 300ms ease-out 1s;}
+    -webkit-transition: background-color 300ms;
+      -moz-transition: background-color 300ms;
+      -o-transition: background-color 300ms;
+      transition: background-color 300ms;}
     #mainNav .navbar-brand {
       font-size: 1.75em;
       transition: font-size 0.3s; }
