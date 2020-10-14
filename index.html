@@ -6,13 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Kim Le">
-    <title>Kim Le</title>
+    <title>Kim Le | Computer Science Student</title>
     <!-- Font Awesome icons (free version)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
     <!-- Fonts CSS-->
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Navbar transition -->
+    <script>
+    $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
+    });
+    </script>
+
+    <!-- Smooth scrolling using jQuery easing -->
+    <script>
+        $(document).ready(function() {
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 500, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
 </head>
 
 <body id="page-top">
@@ -34,7 +57,7 @@
             </div>
         </div>
     </nav>
-    <header class="masthead bg-dark text-white text-center">
+    <header class="masthead text-white text-center">
         <div class="container align-items-center flex-column m-auto">
             <!-- Masthead Heading-->
             <h1 class="masthead-heading">Kim Le</h1>
@@ -47,7 +70,7 @@
             <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-3 ml-auto text-center mb-5">
-                    <img src="https://via.placeholder.com/300" class="img-fluid">
+                    <img src="assets/img/kim.png" class="img-fluid">
                 </div>
                 <div class="col-lg-7 mr-auto">
                     <h2 class="page-section-heading d-inline-block text-pink">Hello, world!</h2>
@@ -64,7 +87,7 @@
                             <span class="font-weight-normal text-dark-green">[ ‘Java’, ‘C’, ‘C++’, ‘Python’, ‘HTML’, ‘CSS’, ‘JavaScript’, ‘PHP’, ‘SQL’, ‘Bash’, ‘Assembly’ ]</span>
                         </li>
                         <li>kim.interests<br>
-                            <span class="font-weight-normal text-dark-green">[ ’software development, ‘information security’, ‘web/app design & development’, ‘music’, ‘drawing’, ‘running’, ‘food’ ]</span>
+                            <span class="font-weight-normal text-dark-green">[ ’software development', ‘information security’, ‘web/app design & development’, 'game development', 'reading', ‘music’, ‘drawing’, ‘games’, ‘food’ ]</span>
                         </li>
                     </ul>
                 </div>
@@ -136,13 +159,14 @@
                             <li>Computer Organization</li>
                             <li>Computational Complexity and Computability</li>
                             <li>Operating Systems <span class="badge badge-primary">IPR</span></li>
-                            <li>Introduction to Information Security</li>
+                            <li>Introduction to Information Security <span class="badge badge-primary">IPR</span></li></li>
                             <li>Algorithm Design and Analysis <span class="badge badge-primary">IPR</span></li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul>
-                            <li>Introduction to Mathematical Proofs > Calculus</li>
+                            <li>Introduction to Mathematical Proofs</li>
+                            <li>Calculus</li>
                             <li>Calculus of Several Variables</li>
                             <li>Linear Algebra, I</li>
                             <li>Linear Algebra, II</li>
@@ -166,7 +190,7 @@
                 <!-- Portfolio Items-->
                 <div class="card text-center mx-2">
                     <div class="card-body pb-0">
-                        <h5 class="text-pink">Cause for Paws Website</h5>
+                        <h5 class="text-pink">Cause for Paws Website <a href="www.causeforpawsutm.ca" target="_blank" class="text-green"><i class="fas fa-external-link-alt"></i></a></h5>
                         <p>A website for UTM’s Cause For Paws club, using the Bootstrap CSS framework.</p>
                     </div>
                     <div class="row align-self-end mx-auto pb-4">
@@ -214,7 +238,7 @@
                 </div>
                 <div class="card text-center mx-2">
                     <div class="card-body pb-0">
-                        <h5 class="text-pink">WordPress websites</h5>
+                        <h5 class="text-pink">WordPress websites <a href="https://www.colourcodingmedia.com/our-work/" class="text-green" target="_blank"><i class="fas fa-external-link-alt"></i></a></h5>
                         <p>As a part of the ColourCoding Media Inc. Team, I have worked on the front-end development and design of several Wordpress-based websites.
                     </div>
                     <div class="row align-self-end mx-auto pb-4">
