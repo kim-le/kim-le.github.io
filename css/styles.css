@@ -7266,7 +7266,7 @@ h3 {
     background: transparent;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    transition: padding-top 0.3s, padding-bottom 0.3s; background: 0.2s}
+    transition: padding-top 0.3s, padding-bottom 0.3s, background-color: 0.3s;}
     #mainNav .navbar-brand {
       font-size: 1.75em;
       transition: font-size 0.3s; }
