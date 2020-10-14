@@ -15,13 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <!-- Navbar transition -->
     <script>
-    $(window).scroll(function() {
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
-    });
-    </script>
-
-    <!-- Smooth scrolling using jQuery easing -->
-    <script>
         $(document).ready(function() {
             $("a").on('click', function(event) {
                 if (this.hash !== "") {
@@ -34,6 +27,11 @@
                     });
                 }
             });
+        });
+    </script>
+    <script>
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
         });
     </script>
 </head>
@@ -278,9 +276,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Contact form JS-->
+    <!-- Contact form JS
     <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
+    <script src="assets/mail/contact_me.js"></script>-->
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 </body>

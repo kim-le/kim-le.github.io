@@ -7285,7 +7285,7 @@ h3 {
 .masthead {
 height:100vh;
 display:flex;
-background: url("assets/img/heroIMG.jpeg");}
+background: url("/assets/img/heroIMG.jpeg");}
   .masthead .masthead-heading {
     font-size: 2.75rem;
     line-height: 2.75rem; }
