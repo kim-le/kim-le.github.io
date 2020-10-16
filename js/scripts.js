@@ -7,7 +7,7 @@
     "use strict"; // Start of use strict
 
     $(document).ready(function() {
-        $(".nav-link a").on('click', function(e) {
+        $(".navbar ul a").on('click', function(e) {
             if (this.hash !== "") {
                 e.preventDefault();
                 var hash = this.hash;
