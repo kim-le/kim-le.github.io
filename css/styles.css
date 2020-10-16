@@ -5,11 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --pink: #E89BA7;
-  --light-pink: #EDAFB8;
-  --beige: #F7E1D7;
+  --purple: #ABA7D8;
   --green: #B0C4B1;
-  --light-green: #DEDBD2;
+  --beige: #D9D8D3;
   --dark-green: #4A5759;
   --white: #fff;
   --breakpoint-xs: 0;
@@ -2992,7 +2990,7 @@ display: flex;}
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: var(--pink);
+  color: var(--purple);
   border-bottom: solid 4px var(--green);
 }
 
@@ -3613,7 +3611,7 @@ display: flex;}
 
 .badge-primary {
   color: var(--dark-green);
-  background-color: var(--pink) }
+  background-color: var(--purple) }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #212529;
     background-color: #a4cec8; }
@@ -7281,7 +7279,7 @@ h3 {
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: var(--dark-green);}
   #mainNav.navbar-shrink {
-    background-color: var(--pink);
+    background-color: var(--purple);
     -webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.18);
     -moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.18);
     box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.18);}
@@ -7424,8 +7422,8 @@ form .row:first-child .floating-label-form-group {
 .btn-social {
   margin-bottom: 0.5rem; }
 
-.text-pink{
-  color: var(--pink);
+.text-purple{
+  color: var(--purple);
 }
 
 .text-green{
