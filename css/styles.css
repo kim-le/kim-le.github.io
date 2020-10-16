@@ -123,7 +123,7 @@ a {
   background-color: transparent;
 transition: color 0.3s;}
   a:hover {
-    color: #93c5be;
+    color: var(--purple);
     text-decoration: underline;}
 
 a:not([href]) {
@@ -3610,7 +3610,7 @@ display: flex;}
   border-radius: 10rem; }
 
 .badge-primary {
-  color: var(--dark-green);
+  color: var(--beige);
   background-color: var(--purple) }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #212529;
@@ -3620,7 +3620,7 @@ display: flex;}
     box-shadow: 0 0 0 0.2rem rgba(197, 224, 220, 0.5); }
 
 .badge-secondary {
-  color: var(--beige);
+  color: var(--dark-green);
   background-color: var(--green); }
   a.badge-secondary:hover, a.badge-secondary:focus {
     color: #212529;
