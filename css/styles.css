@@ -3324,7 +3324,7 @@ display: flex;}
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: var(--light-green);
+  background-color: var(--beige);
   background-clip: border-box;
   border-radius: 0.5rem; }
   .card > hr {
@@ -7438,12 +7438,9 @@ form .row:first-child .floating-label-form-group {
   color: var(--beige);
 }
 
-.text-light-green{
-  color: var(--light-green);
-}
 
 #about {
-  background-color: var(--light-green);
+  background-color: var(--beige);
   color: var(--dark-green);
 }
 
